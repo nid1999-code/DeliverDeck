@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="./photos/icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeliverDeck</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="mt-20">
+            <div class="location">
+                <div class="bar">
+                    <div style="width:10%;text-align:center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1024"
+                            class="icon" version="1.1">
+                            <path
+                                d="M498.069 786.871s303.32-237.507 303.32-409.31-135.8-311.076-303.32-311.076-303.32 139.273-303.32 311.076 303.32 409.31 303.32 409.31z m0-682.312c146.614 0 265.466 121.438 265.466 271.239S498.834 741.519 498.834 741.519 232.603 525.598 232.603 375.798s118.852-271.239 265.466-271.239z m0 416.907c52.349 0 94.788-42.438 94.788-94.788v-37.915c0-52.349-42.438-94.788-94.788-94.788s-94.788 42.438-94.788 94.788v37.915c0 52.349 42.438 94.788 94.788 94.788z m-56.873-132.703c0-31.411 25.462-56.873 56.873-56.873s56.873 25.462 56.873 56.873v37.915c0 31.411-25.462 56.873-56.873 56.873s-56.873-25.462-56.873-56.873v-37.915z m246.448 417.066l-113.745 0.415v-0.415H232.663s-39.1 0-37.915-37.915c1.185-37.915 37.915-37.915 37.915-37.915h56.873s18.366-0.593 18.958-18.958c0.593-18.366-18.958-18.958-18.958-18.958h-56.873s-75.83-1.185-75.83 75.83 75.83 75.83 75.83 75.83h132.703v0.882h322.278s39.1 0 37.915 37.621c-1.185 37.621-37.915 37.621-37.915 37.621h-151.66s-18.958 0.298-18.958 18.664c0 18.364 18.958 18.958 18.958 18.958h151.66s75.83 1.175 75.83-75.242-75.83-76.418-75.83-76.418z"
+                                fill="#25EF25" />
+                        </svg>
+                    </div>
+                   <div style="width:80%">
+                        <div></div>
+                        <input type="text" placeholder="Enter your Current location ..">
+                    </div>
+                    <div style="width:10%;;text-align:center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                            <path d="M15 19.25C15 20.0456 14.6839 20.8087 14.1213 21.3713C13.5587 21.9339 12.7956 22.25 12 22.25C11.2044 22.25 10.4413 21.9339 9.87869 21.3713C9.31608 20.8087 9 20.0456 9 19.25" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M5.58096 18.25C5.09151 18.1461 4.65878 17.8626 4.36813 17.4553C4.07748 17.048 3.95005 16.5466 4.01098 16.05L5.01098 7.93998C5.2663 6.27263 6.11508 4.75352 7.40121 3.66215C8.68734 2.57077 10.3243 1.98054 12.011 1.99998V1.99998C13.6977 1.98054 15.3346 2.57077 16.6207 3.66215C17.9069 4.75352 18.7557 6.27263 19.011 7.93998L20.011 16.05C20.0723 16.5452 19.9462 17.0454 19.6576 17.4525C19.369 17.8595 18.9386 18.144 18.451 18.25C14.2186 19.2445 9.81332 19.2445 5.58096 18.25V18.25Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="search">
+                <div class="bar">
+                    <div style="width:10%;text-align:center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                            <path d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </div>
+                    <div style="width:80%">
+                        <input type="text" placeholder="Search menu,restaurants etc..">
+                    </div>
+                    <div style="width:10%;text-align:center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                            <path d="M4 5L10 5M10 5C10 6.10457 10.8954 7 12 7C13.1046 7 14 6.10457 14 5M10 5C10 3.89543 10.8954 3 12 3C13.1046 3 14 3.89543 14 5M14 5L20 5M4 12L16 12M16 12C16 13.1046 16.8954 14 18 14C19.1046 14 20 13.1046 20 12C20 10.8954 19.1046 10 18 10C16.8954 10 16 10.8954 16 12ZM8 19L20 19M8 19C8 17.8954 7.10457 17 6 17C4.89543 17 4 17.8954 4 19C4 20.1046 4.89543 21 6 21C7.10457 21 8 20.1046 8 19Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                                 <!--section Body-->                         
+   
+    <div class="content">
+        <div style="margin-top:2.721vw;">  <!--section 1-->
+            <div class="carousel">
+                <div class="w-400">
+                    <img src="photos/swipe1.png">
+                </div>
+                <div class="w-400">
+                <img src="photos/swipe2.png">
+                </div>
+                <div class="w-400">
+                <img src="photos/swipe3.png">
+                </div>
+            </div>
+        </div>                      
+                                        <!--section 2--> 
+        <div class="top-categories">
+            <div class="top-container">
+                <h4>Top Categories</h4>
+                <p>See all</p>
+            </div>
+            <div class="category">
+               
+                <div>
+                    <img style="border-radius:16.279vw" src="photos/southShop.png" />
+                    <p class="p-0">South Indian</p>
+                </div>
+                <div>
+                    <img style="border-radius:16.279vw" src="photos/NorthShop.png" />
+                    <p class="p-0">North Indian</p>
+                </div>
+                <div>
+                    <img style="border-radius:16.279vw" src="photos/sweetShop.png" />
+                    <p class="p-0">Sweets</p>
+                </div>
+                <div>
+                    <img style="border-radius:16.279vw" src="photos/Chinies.png" />
+                    <p class="p-0">Chinese</p>
+                </div>
+                <div>
+                    <img style="border-radius:16.279vw" src="photos/dosaShop.png" />
+                    <p class="p-0">Dosa</p>
+                </div>
+                <div>
+                    <img style="border-radius:16.279vw" src="photos/pizzaShop.png" />
+                    <p class="p-0">Pizza</p>
+                </div>
+                <div>
+                    <img style="border-radius:16.279vw" src="photos/snacksShop.png" />
+                    <p class="p-0">Snacks</p>
+                </div>
+            </div>
+        </div>
+                            <!--section 3--> 
+        <div>
+            <div class="top-container">
+                <h4>Top Discount</h4>
+                <p>See all</p>
+            </div>
+            <div class="discount">
+                <div>
+                    <img style="border-radius:10px" src="photos/swipe1.png" />
+                    <p class="p-0">KFC</p>
+                    <div class="rating">
+                        <div>1.9km</div>
+                        <div> <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 -0.5 32 32" fill="none">
+                            <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"/>
+                            </svg>4.8 reviews </div>
+                    </div>
+                </div>
+                <div>
+                    <img style="border-radius:10px" src="photos/pizzahut.png" />
+                    <p class="p-0">Pizzhut</p>
+                    <div class="rating">
+                        <div>5km</div>
+                        <div> <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 -0.5 32 32" fill="none">
+                            <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"/>
+                            </svg>4.6 reviews </div>
+                   </div>
+            </div>
+            <div>
+                <img style="border-radius:10px" src="photos/Domino's.png" />
+                <p class="p-0">Domino's</p>
+                <div class="rating">
+                    <div>2km</div>
+                    <div> <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 -0.5 32 32" fill="none">
+                        <path d="M16.0005 0L21.4392 9.27275L32.0005 11.5439L24.8005 19.5459L25.889 30.2222L16.0005 25.895L6.11194 30.2222L7.20049 19.5459L0.000488281 11.5439L10.5618 9.27275L16.0005 0Z" fill="#FFCB45"/>
+                        </svg>4.2 reviews </div>
+               </div>
+        </div>
+        </div>
+    </div>
+                                <!--section 4-->    
+    <div class="footer">
+        <div class="bar">
+            <div>
+                <p class="p-0"><svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none">
+                    <path opacity="0.5" d="M2.36407 12.9579C1.98463 10.3208 1.79491 9.00229 2.33537 7.87495C2.87583 6.7476 4.02619 6.06234 6.32691 4.69181L7.71175 3.86687C9.80104 2.62229 10.8457 2 12 2C13.1543 2 14.199 2.62229 16.2882 3.86687L17.6731 4.69181C19.9738 6.06234 21.1242 6.7476 21.6646 7.87495C22.2051 9.00229 22.0154 10.3208 21.6359 12.9579L21.3572 14.8952C20.8697 18.2827 20.626 19.9764 19.451 20.9882C18.2759 22 16.5526 22 13.1061 22H10.8939C7.44737 22 5.72409 22 4.54903 20.9882C3.37396 19.9764 3.13025 18.2827 2.64284 14.8952L2.36407 12.9579Z" stroke="#1C274C" stroke-width="1.5"/>
+                    <path d="M12 15L12 18" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg></p>
+                <p class="p-0">Home</p>
+            </div>
+            <div>
+                <p class="p-0"><svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 1024 1024" fill="#000000" class="icon" version="1.1"><path d="M53.6 1023.2c-6.4 0-12.8-2.4-17.6-8-4.8-4.8-7.2-11.2-6.4-18.4L80 222.4c0.8-12.8 11.2-22.4 24-22.4h211.2v-3.2c0-52.8 20.8-101.6 57.6-139.2C410.4 21.6 459.2 0.8 512 0.8c108 0 196.8 88 196.8 196.8 0 0.8-0.8 1.6-0.8 2.4v0.8H920c12.8 0 23.2 9.6 24 22.4l49.6 768.8c0.8 2.4 0.8 4 0.8 6.4-0.8 13.6-11.2 24.8-24.8 24.8H53.6z m25.6-48H944l-46.4-726.4H708v57.6h0.8c12.8 8.8 20 21.6 20 36 0 24.8-20 44.8-44.8 44.8s-44.8-20-44.8-44.8c0-14.4 7.2-27.2 20-36h0.8v-57.6H363.2v57.6h0.8c12.8 8.8 20 21.6 20 36 0 24.8-20 44.8-44.8 44.8-24.8 0-44.8-20-44.8-44.8 0-14.4 7.2-27.2 20-36h0.8v-57.6H125.6l-46.4 726.4zM512 49.6c-81.6 0-148.8 66.4-148.8 148.8v3.2h298.4l-0.8-1.6v-1.6c0-82.4-67.2-148.8-148.8-148.8z" fill=""/></svg></p>
+                <p class="p-0">Orders</p>
+            </div>
+            <div>
+                <p class="p-0"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="25px" width="25px" version="1.1" id="_x32_" viewBox="0 0 512 512" xml:space="preserve">
+                    <style type="text/css">
+                        .st0{fill:#000000;}
+                    </style>
+                    <g>
+                        <path class="st0" d="M459.746,0H34.69v464.562c0,16.961,9.056,32.632,23.752,41.098C65.763,509.88,73.955,512,82.126,512   c8.206,0,16.426-2.134,23.774-6.388l128.961-74.696c6.538-3.788,13.825-5.674,21.139-5.674c7.314,0,14.6,1.886,21.138,5.674   l128.96,74.696l0.014,0.007c7.334,4.24,15.547,6.381,23.76,6.381c8.164,0,16.364-2.113,23.698-6.346   c14.683-8.46,23.74-24.13,23.74-41.091V0H459.746z M436.02,475.224c-1.908,1.098-4.014,1.64-6.148,1.647   c-2.127,0-4.254-0.548-6.182-1.667l-1.091-0.624l-127.856-74.058c-11.98-6.943-25.372-10.415-38.744-10.415   c-13.373,0-26.772,3.478-38.745,10.415L88.294,475.218c-1.907,1.105-4.02,1.654-6.168,1.654c-2.12,0-4.24-0.548-6.148-1.647   c-3.815-2.196-6.16-6.257-6.16-10.662V35.129h372.364v429.434C442.182,468.968,439.835,473.029,436.02,475.224z"/>
+                        <path class="st0" d="M349.255,201.104l-60.378-3.636c-2.318-0.144-4.35-1.619-5.2-3.78l-22.12-56.295   c-0.892-2.278-3.101-3.788-5.557-3.788c-2.457,0-4.666,1.503-5.558,3.788l-22.12,56.295c-0.851,2.161-2.882,3.636-5.2,3.78   l-60.378,3.636c-2.456,0.151-4.57,1.784-5.324,4.124c-0.755,2.333-0.014,4.892,1.887,6.456l46.703,38.443   c1.798,1.475,2.567,3.863,1.99,6.113l-15.204,58.545c-0.611,2.381,0.288,4.892,2.278,6.333c1.99,1.447,4.652,1.523,6.724,0.206   l50.991-32.542c1.955-1.248,4.467-1.248,6.422,0l50.984,32.542c2.072,1.318,4.741,1.242,6.731-0.206   c1.983-1.441,2.882-3.952,2.264-6.333L304,256.24c-0.576-2.25,0.192-4.638,1.989-6.113l46.703-38.443   c1.901-1.564,2.648-4.123,1.887-6.456C353.818,202.888,351.712,201.256,349.255,201.104z"/>
+                    </g>
+                    </svg></p>
+                <p class="p-0">Bookmark</p>
+            </div>
+            <div>
+                <p class="p-0"><svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none">
+                    <path opacity="0.4" d="M12.1207 12.78C12.0507 12.77 11.9607 12.77 11.8807 12.78C10.1207 12.72 8.7207 11.28 8.7207 9.50998C8.7207 7.69998 10.1807 6.22998 12.0007 6.22998C13.8107 6.22998 15.2807 7.69998 15.2807 9.50998C15.2707 11.28 13.8807 12.72 12.1207 12.78Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path opacity="0.34" d="M18.7398 19.3801C16.9598 21.0101 14.5998 22.0001 11.9998 22.0001C9.39977 22.0001 7.03977 21.0101 5.25977 19.3801C5.35977 18.4401 5.95977 17.5201 7.02977 16.8001C9.76977 14.9801 14.2498 14.9801 16.9698 16.8001C18.0398 17.5201 18.6398 18.4401 18.7398 19.3801Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></p>
+                <p class="p-0">Profile</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>

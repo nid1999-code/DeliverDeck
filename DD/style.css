@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    
+    background-image: url('photos/diwali.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.header img{
+    border-radius:2vw,2vw,0,0;
+    width: 100vw;
+    height: 25vh;
+}
+
+.mt-20{
+    padding-top: 16.279vw;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.791vw;
+    padding:3.721vw;
+}
+
+.location .bar{
+    width:100vw;
+    display: flex;
+    align-items: center;
+    color:white;
+    background: rgba(59, 57, 57, 0.5);
+    padding: 2.645vw 2.645vw;
+    border-radius: 2.860vw;
+}
+
+.location .bar input{
+    border-radius: 2.860vw;
+    width:80%;
+    border:none;
+    font-size:3.256vw;
+    /*margin-bottom: 1.163vw;*/
+    color:white;
+    background: rgba(59, 57, 57, 0.5);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.791vw;
+    padding:3.721vw;
+}
+
+.search .bar{
+    display: flex;
+    align-items: center;
+    color:black;
+    background: white;
+    padding: 2.645vw 2.645vw;
+    border-radius: 5.581vw;
+    width:100vw;
+}
+
+.search .bar input{
+    width:80%;
+    border:none;
+    font-size:3.256vw;
+    margin-bottom: 1.163vw;
+    border-radius:3vw ;
+    background: white;
+}
+.carousel{
+    display: flex;
+    overflow-x:scroll;
+    gap:2.326vw;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+
+}
+
+.w-400{
+   padding:2.721vw;
+}
+
+.carousel img{
+    width:93.023vw;
+    height:46.512vw;
+    border-radius: 1.860vw;
+}
+
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.721vw;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    overflow-x:scroll ;
+    overflow-y: hidden;
+    gap:9.302vw;
+    padding: 1.860vw 3.721vw;
+}
+.category img{    /* fixed image size  */
+    width: 23.256vw;
+    height:23.256vw;
+}
+
+.discount{
+    display: flex;
+    white-space: nowrap;
+    gap:2.326vw;
+    padding-left:3.721vw;;
+    margin-bottom:16.558vw ;
+    overflow-x:scroll ;
+}
+.discount img{ /* fixed image size */
+    width:46.512vw;
+    height:23.256vw;
+}
+.rating{
+    font-size:3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.footer{
+    position:fixed;
+    bottom: 0vw;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* border-top: 0.233vw solid black;*/
+    background-color: white;
+    text-align: center;
+}
+
+.footer .bar{
+    padding:1.326vw 2.256vw;
+    display: flex;
+    width:95vw;
+    justify-content: space-between;
+    bottom:0vw ;
+    align-items:center;
+
+}
+
+.p-0{
+    margin:0;
+   text-align:center;
+}
